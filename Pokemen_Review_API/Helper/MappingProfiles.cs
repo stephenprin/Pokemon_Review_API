@@ -12,6 +12,9 @@ namespace Pokemen_Review_API.Helper
             CreateMap<Category, CategoryDto>();
             CreateMap<Country, CountryDto>();
             CreateMap<Owner, OwnerDto>();
+            CreateMap<Reviewer, ReviewerDto>();
+            CreateMap<Review, ReviewDto>();
+
         }
     }
 }
